@@ -30,12 +30,12 @@ const Home = () => {
             </motion.div>
             <motion.div {...headTextAnimation} className='flex flex-col gap-5'>
               <p className='max-w-md font-normal text-gray-600 text-base'>
-                Create your unique and exclusive shirt with our brand-new 3D Tool{' '}
-                <strong>Unlesh your imagination</strong> and define your style
+                Krijoni nje bluzë unike dhe ekskluzive me stil 3D{' '}
+                <strong>Çlironi imagjinatën tuaj</strong> dhe përcaktoni stilin tuaj
               </p>
               <CustomButton
                 type='filled'
-                title='Customize It'
+                title='KRIJO'
                 handleClick={() => (state.intro = false)}
                 customStyles='w-fit px-4 py-2.5 font-bold text-sm'
               />

@@ -47,7 +47,7 @@ const Customizer = () => {
   };
 
   const handleSubmit = async (type) => {
-    if (!prompt) return alert('Please eneter a prompt');
+    if (!prompt) return alert('Ju lutem shkruani dicka');
 
     try {
       // call the backend to generate an ai image.
