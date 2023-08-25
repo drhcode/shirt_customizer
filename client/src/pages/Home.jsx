@@ -28,7 +28,7 @@ const Home = () => {
                 LET <br className='xl:block hidden' /> DO IT.
               </h1>
             </motion.div>
-            <motion.div {...headTextAnimation} className='flex flex-col gap-5'>
+            <motion.div {...headContentAnimation} className='flex flex-col gap-5'>
               <p className='max-w-md font-normal text-gray-600 text-base'>
                 Krijoni nje bluzë unike dhe ekskluzive me stil 3D{' '}
                 <strong>Çlironi imagjinatën tuaj</strong> dhe përcaktoni stilin tuaj
